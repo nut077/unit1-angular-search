@@ -18,7 +18,6 @@ import {ArticleService} from '../shared/article.service'
       </app-search-form>
       <app-search-results [results]='articles'></app-search-results>
     </div>
-
   `
 })
 export class SearchComponent implements OnInit {
